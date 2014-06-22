@@ -3,7 +3,7 @@
 
 Course Project for the Getting and Cleaning Data Course
 
-The code "run_analysis.R" performs the following actions on the Samsung data set when downloaded and unzipped in your working directory:
+The code "run_analysis.R" performs the following actions on the Samsung data set when the data set has been downloaded and unzipped in your working directory:
 
 * reads the data files features.txt, subject_train.txt, subject_test.txt, y_train.txt, y_test.txt, x_train.txt, and x_test.txt into data frames "features", "train.subject", "test.subject", "train.activity", "test.activity", "train.measures", and "test.measures", respectively
 * transposes the "features" data frame and uses the transposed data frame to name the columns in the "train.measures" and "test.measures" data frames
